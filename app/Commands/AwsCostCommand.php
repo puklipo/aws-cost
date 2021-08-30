@@ -38,7 +38,7 @@ class AwsCostCommand extends Command
         $end = today()->toDateString();
 
         if ($start === $end) {
-            $start = today()->subMonth()->startOfMonth()->toDateString();
+            $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
             $end = today()->startOfMonth()->toDateString();
         }
 
