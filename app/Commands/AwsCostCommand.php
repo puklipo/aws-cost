@@ -32,8 +32,6 @@ class AwsCostCommand extends Command
      */
     public function handle()
     {
-        $client = Aws::createCostExplorer();
-
         $start = today()->startOfMonth()->toDateString();
         $end = today()->toDateString();
 
@@ -42,7 +40,7 @@ class AwsCostCommand extends Command
             $end = today()->startOfMonth()->toDateString();
         }
 
-        $result = $client->getCostAndUsage([
+        $result = Aws::createCostExplorer()->getCostAndUsage([
             'TimePeriod' => [
                 'Start' => $start,
                 'End' => $end,
