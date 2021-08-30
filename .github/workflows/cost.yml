@@ -2,7 +2,7 @@ name: cost
 
 on:
   schedule:
-    - cron: '30 3 * * *' #UTC
+    - cron: '0 3 * * *' #UTC
 
 jobs:
   cost:
