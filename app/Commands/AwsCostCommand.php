@@ -2,10 +2,10 @@
 
 namespace App\Commands;
 
-use Illuminate\Console\Scheduling\Schedule;
-use LaravelZero\Framework\Commands\Command;
 use Aws\Laravel\AwsFacade as Aws;
+use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Arr;
+use LaravelZero\Framework\Commands\Command;
 use Revolution\Line\Facades\LineNotify;
 use Revolution\Line\Notifications\LineNotifyMessage;
 
@@ -45,13 +45,13 @@ class AwsCostCommand extends Command
         $result = $client->getCostAndUsage([
             'TimePeriod' => [
                 'Start' => $start,
-                'End' => $end
+                'End' => $end,
             ],
             'Granularity' => 'MONTHLY',
             'Metrics' => ['AmortizedCost'],
         ]);
 
-        $total = Arr::get($result->toArray(),'ResultsByTime.0.Total.AmortizedCost.Amount');
+        $total = Arr::get($result->toArray(), 'ResultsByTime.0.Total.AmortizedCost.Amount');
         $total = number_format($total, 2);
 
         $message = LineNotifyMessage::create(PHP_EOL."$start ~ $end".PHP_EOL.$total.' USD');
