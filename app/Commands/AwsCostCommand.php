@@ -32,18 +32,18 @@ class AwsCostCommand extends Command
      */
     public function handle()
     {
-        $start = today()->startOfMonth()->toDateString();
-        $end = today()->toDateString();
+        $start = today()->startOfMonth();
+        $end = today();
 
-        if ($start === $end) {
-            $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
-            $end = today()->startOfMonth()->toDateString();
+        if ($start->eq($end)) {
+            $start = today()->subMonthNoOverflow()->startOfMonth();
+            $end = today()->startOfMonth();
         }
 
         $result = Aws::createCostExplorer()->getCostAndUsage([
             'TimePeriod' => [
-                'Start' => $start,
-                'End' => $end,
+                'Start' => $start->toDateString(),
+                'End' => $end->toDateString(),
             ],
             'Granularity' => 'MONTHLY',
             'Metrics' => ['AmortizedCost'],
