@@ -52,9 +52,10 @@ class AwsCostCommand extends Command
         $total = Arr::get($result->toArray(), 'ResultsByTime.0.Total.AmortizedCost.Amount');
         $total = number_format($total, 2);
 
-        $message = LineNotifyMessage::create(PHP_EOL."$start ~ $end".PHP_EOL.$total.' USD');
+        $message = "\n${start} ~ ${end}\n${total} USD";
 
-        LineNotify::withToken(config('line.notify.personal_access_token'))->notify($message->toArray());
+        LineNotify::withToken(config('line.notify.personal_access_token'))
+                    ->notify(LineNotifyMessage::create($message)->toArray());
     }
 
     /**
