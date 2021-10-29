@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.199.5",
+            "version": "3.199.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e26dfbcb2368ab3bb65cf8d788451e90bab7909c"
+                "reference": "587c7765164b22b69b257d48751e5d1662eb0fff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e26dfbcb2368ab3bb65cf8d788451e90bab7909c",
-                "reference": "e26dfbcb2368ab3bb65cf8d788451e90bab7909c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/587c7765164b22b69b257d48751e5d1662eb0fff",
+                "reference": "587c7765164b22b69b257d48751e5d1662eb0fff",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.199.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.199.6"
             },
-            "time": "2021-10-27T18:16:35+00:00"
+            "time": "2021-10-28T18:20:18+00:00"
         },
         {
             "name": "aws/aws-sdk-php-laravel",
