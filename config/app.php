@@ -90,7 +90,6 @@ return [
 
         Revolution\DiscordManager\Providers\DiscordManagerServiceProvider::class,
 
-        Aws\Laravel\AwsServiceProvider::class,
         Revolution\Line\Providers\LineServiceProvider::class,
 
         App\Providers\AppServiceProvider::class,

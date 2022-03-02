@@ -2,7 +2,7 @@
 
 namespace App\Commands;
 
-use Aws\Laravel\AwsFacade as Aws;
+use Aws\Sdk;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Arr;
 use LaravelZero\Framework\Commands\Command;
@@ -28,7 +28,7 @@ class AwsCostCommand extends Command
     /**
      * Execute the console command.
      *
-     * @return mixed
+     * @return int
      */
     public function handle()
     {
@@ -40,7 +40,9 @@ class AwsCostCommand extends Command
             $end = today()->subMonthNoOverflow()->endOfMonth()->toDateString();
         }
 
-        $result = Aws::createCostExplorer()->getCostAndUsage([
+        $aws = new Sdk(config('services.aws'));
+
+        $result = $aws->createCostExplorer()->getCostAndUsage([
             'TimePeriod' => [
                 'Start' => $start,
                 'End' => $end,
@@ -55,7 +57,9 @@ class AwsCostCommand extends Command
         $message = "\n${start} ~ ${end}\n${total} USD";
 
         LineNotify::withToken(config('line.notify.personal_access_token'))
-                    ->notify(LineNotifyMessage::create($message)->toArray());
+                  ->notify(LineNotifyMessage::create($message)->toArray());
+
+        return 0;
     }
 
     /**
