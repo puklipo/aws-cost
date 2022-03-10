@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.212.4",
+            "version": "3.212.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "4961e8b34fab8b92a459067f264b4dc66f969a57"
+                "reference": "ed69594b385233bb895342e18008cd811e8225e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4961e8b34fab8b92a459067f264b4dc66f969a57",
-                "reference": "4961e8b34fab8b92a459067f264b4dc66f969a57",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ed69594b385233bb895342e18008cd811e8225e7",
+                "reference": "ed69594b385233bb895342e18008cd811e8225e7",
                 "shasum": ""
             },
             "require": {
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.212.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.212.5"
             },
-            "time": "2022-03-08T19:19:48+00:00"
+            "time": "2022-03-09T19:19:58+00:00"
         },
         {
             "name": "brick/math",
@@ -2977,16 +2977,16 @@
         },
         {
             "name": "laravel-zero/foundation",
-            "version": "v9.3.0",
+            "version": "v9.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-zero/foundation.git",
-                "reference": "009da6c891611326eb1840e853a328f867f8740e"
+                "reference": "3e934fb17c2a47b047efe6aa1a0b34b57a6f2412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/009da6c891611326eb1840e853a328f867f8740e",
-                "reference": "009da6c891611326eb1840e853a328f867f8740e",
+                "url": "https://api.github.com/repos/laravel-zero/foundation/zipball/3e934fb17c2a47b047efe6aa1a0b34b57a6f2412",
+                "reference": "3e934fb17c2a47b047efe6aa1a0b34b57a6f2412",
                 "shasum": ""
             },
             "require": {
@@ -3016,9 +3016,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel-zero/foundation/tree/v9.3.0"
+                "source": "https://github.com/laravel-zero/foundation/tree/v9.4.1"
             },
-            "time": "2022-03-03T09:15:10+00:00"
+            "time": "2022-03-09T16:07:59+00:00"
         },
         {
             "name": "laravel-zero/framework",
