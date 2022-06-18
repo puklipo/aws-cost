@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.226.0",
+            "version": "3.227.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "d76d4fe0fa603ddc3f5c54d9664438dc1a808859"
+                "reference": "88d803113ade68604ec03c591d65e1e44406ab8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d76d4fe0fa603ddc3f5c54d9664438dc1a808859",
-                "reference": "d76d4fe0fa603ddc3f5c54d9664438dc1a808859",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/88d803113ade68604ec03c591d65e1e44406ab8e",
+                "reference": "88d803113ade68604ec03c591d65e1e44406ab8e",
                 "shasum": ""
             },
             "require": {
@@ -75,9 +75,9 @@
                 "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-simplexml": "*",
-                "guzzlehttp/guzzle": "^5.3.3 || ^6.2.1 || ^7.0",
+                "guzzlehttp/guzzle": "^6.5.7 || ^7.4.4",
                 "guzzlehttp/promises": "^1.4.0",
-                "guzzlehttp/psr7": "^1.7.0 || ^2.1.1",
+                "guzzlehttp/psr7": "^1.8.5 || ^2.3",
                 "mtdowling/jmespath.php": "^2.6",
                 "php": ">=5.5"
             },
@@ -143,9 +143,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.226.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.227.0"
             },
-            "time": "2022-06-16T18:14:10+00:00"
+            "time": "2022-06-17T18:15:06+00:00"
         },
         {
             "name": "brick/math",
@@ -284,16 +284,16 @@
         },
         {
             "name": "discord-php/http",
-            "version": "v9.0.11",
+            "version": "v9.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP-Http.git",
-                "reference": "e8036b7c869ce1bf608fcf27b10e14d782105d9b"
+                "reference": "c94f1c51b96f8d3659edb42cbad7b5910e93c41f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/e8036b7c869ce1bf608fcf27b10e14d782105d9b",
-                "reference": "e8036b7c869ce1bf608fcf27b10e14d782105d9b",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP-Http/zipball/c94f1c51b96f8d3659edb42cbad7b5910e93c41f",
+                "reference": "c94f1c51b96f8d3659edb42cbad7b5910e93c41f",
                 "shasum": ""
             },
             "require": {
@@ -325,9 +325,9 @@
             "description": "Handles HTTP requests to Discord servers",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP-Http/issues",
-                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.11"
+                "source": "https://github.com/discord-php/DiscordPHP-Http/tree/v9.0.12"
             },
-            "time": "2022-06-14T14:44:02+00:00"
+            "time": "2022-06-17T19:46:56+00:00"
         },
         {
             "name": "discord/interactions",
