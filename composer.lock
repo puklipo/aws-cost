@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.10",
+            "version": "3.240.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "84b8229fc25cf787876047b6a73b202209853e79"
+                "reference": "4ab7d004ca11298bf400f3291f144d820fb97cd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/84b8229fc25cf787876047b6a73b202209853e79",
-                "reference": "84b8229fc25cf787876047b6a73b202209853e79",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/4ab7d004ca11298bf400f3291f144d820fb97cd6",
+                "reference": "4ab7d004ca11298bf400f3291f144d820fb97cd6",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.11"
             },
-            "time": "2022-11-04T19:25:00+00:00"
+            "time": "2022-11-07T19:23:11+00:00"
         },
         {
             "name": "brick/math",
@@ -8819,16 +8819,16 @@
         },
         {
             "name": "textalk/websocket",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textalk/websocket-php.git",
-                "reference": "3f8fd6f18a15f4e269416459fabff12d158c2f13"
+                "reference": "67de79745b1a357caf812bfc44e0abf481cee012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/3f8fd6f18a15f4e269416459fabff12d158c2f13",
-                "reference": "3f8fd6f18a15f4e269416459fabff12d158c2f13",
+                "url": "https://api.github.com/repos/Textalk/websocket-php/zipball/67de79745b1a357caf812bfc44e0abf481cee012",
+                "reference": "67de79745b1a357caf812bfc44e0abf481cee012",
                 "shasum": ""
             },
             "require": {
@@ -8864,9 +8864,9 @@
             "description": "WebSocket client and server",
             "support": {
                 "issues": "https://github.com/Textalk/websocket-php/issues",
-                "source": "https://github.com/Textalk/websocket-php/tree/1.6.2"
+                "source": "https://github.com/Textalk/websocket-php/tree/1.6.3"
             },
-            "time": "2022-11-02T18:27:26+00:00"
+            "time": "2022-11-07T18:59:33+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
