@@ -6489,16 +6489,16 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "53b0bee7a279711ee07dec870aec9a03bd1edb43"
+                "reference": "13b85b259b45743df7c24875278839af391d756d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/53b0bee7a279711ee07dec870aec9a03bd1edb43",
-                "reference": "53b0bee7a279711ee07dec870aec9a03bd1edb43",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/13b85b259b45743df7c24875278839af391d756d",
+                "reference": "13b85b259b45743df7c24875278839af391d756d",
                 "shasum": ""
             },
             "require": {
@@ -6547,9 +6547,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.0.1"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.0.2"
             },
-            "time": "2022-02-17T04:57:00+00:00"
+            "time": "2022-11-25T00:24:59+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
