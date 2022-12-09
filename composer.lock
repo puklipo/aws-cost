@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.252.4",
+            "version": "3.252.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b"
+                "reference": "105cae518931ae626693e99d2be2bffa0d13b6c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/105cae518931ae626693e99d2be2bffa0d13b6c7",
+                "reference": "105cae518931ae626693e99d2be2bffa0d13b6c7",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.5"
             },
-            "time": "2022-12-07T19:47:20+00:00"
+            "time": "2022-12-08T19:22:15+00:00"
         },
         {
             "name": "brick/math",
@@ -6423,16 +6423,16 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "4.1.1",
+            "version": "4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "c5ca10f3f2b6a6dd3afae32931a5d37af6052433"
+                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/c5ca10f3f2b6a6dd3afae32931a5d37af6052433",
-                "reference": "c5ca10f3f2b6a6dd3afae32931a5d37af6052433",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/556ca1b787aea93de9015323d39f617b70ff8cc9",
+                "reference": "556ca1b787aea93de9015323d39f617b70ff8cc9",
                 "shasum": ""
             },
             "require": {
@@ -6486,9 +6486,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/4.1.1"
+                "source": "https://github.com/kawax/discord-manager/tree/4.1.3"
             },
-            "time": "2022-12-08T01:13:12+00:00"
+            "time": "2022-12-09T01:19:36+00:00"
         },
         {
             "name": "revolution/laravel-line-sdk",
