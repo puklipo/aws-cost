@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.257.0",
+            "version": "3.257.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "26091e15fbc57e93f939ddfe0410161cd9fdbd54"
+                "reference": "a46e5cd59a411a5c929f030736738e4d81d52c62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/26091e15fbc57e93f939ddfe0410161cd9fdbd54",
-                "reference": "26091e15fbc57e93f939ddfe0410161cd9fdbd54",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a46e5cd59a411a5c929f030736738e4d81d52c62",
+                "reference": "a46e5cd59a411a5c929f030736738e4d81d52c62",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.257.1"
             },
-            "time": "2023-01-12T19:23:11+00:00"
+            "time": "2023-01-13T19:29:27+00:00"
         },
         {
             "name": "brick/math",
@@ -8890,16 +8890,16 @@
         },
         {
             "name": "team-reflex/discord-php",
-            "version": "v7.3.3",
+            "version": "v7.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/discord-php/DiscordPHP.git",
-                "reference": "6d76ad8fbf320e97304f6d04cc9f5894e2fed023"
+                "reference": "82843da4346878a432171f8d82e345389f7cc49b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/6d76ad8fbf320e97304f6d04cc9f5894e2fed023",
-                "reference": "6d76ad8fbf320e97304f6d04cc9f5894e2fed023",
+                "url": "https://api.github.com/repos/discord-php/DiscordPHP/zipball/82843da4346878a432171f8d82e345389f7cc49b",
+                "reference": "82843da4346878a432171f8d82e345389f7cc49b",
                 "shasum": ""
             },
             "require": {
@@ -8955,9 +8955,9 @@
             "description": "An unofficial API to interact with the voice and text service Discord.",
             "support": {
                 "issues": "https://github.com/discord-php/DiscordPHP/issues",
-                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.3"
+                "source": "https://github.com/discord-php/DiscordPHP/tree/v7.3.4"
             },
-            "time": "2022-11-09T05:10:57+00:00"
+            "time": "2023-01-13T12:37:14+00:00"
         },
         {
             "name": "textalk/websocket",
