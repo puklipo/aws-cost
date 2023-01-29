@@ -6437,21 +6437,21 @@
         },
         {
             "name": "revolution/discord-manager",
-            "version": "4.1.4",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/discord-manager.git",
-                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65"
+                "reference": "9b580785eb9a3dde7e3590c3bb088ee8d51743e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/925bfb1864e2aad1a67fe45d355a8d35b0222f65",
-                "reference": "925bfb1864e2aad1a67fe45d355a8d35b0222f65",
+                "url": "https://api.github.com/repos/kawax/discord-manager/zipball/9b580785eb9a3dde7e3590c3bb088ee8d51743e4",
+                "reference": "9b580785eb9a3dde7e3590c3bb088ee8d51743e4",
                 "shasum": ""
             },
             "require": {
                 "discord/interactions": "^2.2",
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.0||^10.0",
                 "php": "^8.0",
                 "restcord/restcord": "dev-develop",
                 "simplito/elliptic-php": "^1.0",
@@ -6460,7 +6460,7 @@
             "require-dev": {
                 "laravel-notification-channels/discord": "^1.3",
                 "mockery/mockery": "^1.3",
-                "orchestra/testbench": "^7.0",
+                "orchestra/testbench": "^7.0||^8.0",
                 "phpunit/phpunit": "^9.5"
             },
             "suggest": {
@@ -6500,33 +6500,33 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/discord-manager/issues",
-                "source": "https://github.com/kawax/discord-manager/tree/4.1.4"
+                "source": "https://github.com/kawax/discord-manager/tree/4.2.0"
             },
-            "time": "2022-12-11T03:16:30+00:00"
+            "time": "2023-01-28T02:40:07+00:00"
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "2.0.2",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "13b85b259b45743df7c24875278839af391d756d"
+                "reference": "205b836fd73b8938c464e7caaa234674b7611847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/13b85b259b45743df7c24875278839af391d756d",
-                "reference": "13b85b259b45743df7c24875278839af391d756d",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/205b836fd73b8938c464e7caaa234674b7611847",
+                "reference": "205b836fd73b8938c464e7caaa234674b7611847",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "illuminate/support": "^9.0",
+                "illuminate/support": "^9.0||^10.0",
                 "laravel/socialite": "^5.0",
                 "linecorp/line-bot-sdk": "^7.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "orchestra/testbench": "^7.0",
+                "orchestra/testbench": "^7.0||^8.0",
                 "phpunit/phpunit": "^9.5"
             },
             "type": "library",
@@ -6564,9 +6564,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.0.2"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/2.1.0"
             },
-            "time": "2022-11-25T00:24:59+00:00"
+            "time": "2023-01-28T02:28:51+00:00"
         },
         {
             "name": "revolution/laravel-namespaced-helpers",
