@@ -1,7 +1,5 @@
 <?php
 
-use Revolution\Line\Providers\LineServiceProvider;
-
 return [
 
     /*
@@ -83,12 +81,7 @@ return [
 
     'providers' => [
         Illuminate\Bus\BusServiceProvider::class,
-        Illuminate\Notifications\NotificationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
-        NotificationChannels\Discord\DiscordServiceProvider::class,
-
-        Revolution\DiscordManager\Providers\DiscordManagerServiceProvider::class,
 
         Revolution\Line\Providers\LineServiceProvider::class,
 

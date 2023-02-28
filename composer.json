@@ -15,13 +15,8 @@
   "require": {
     "php": "^8.2",
     "aws/aws-sdk-php": "^3.261.0",
-    "illuminate/notifications": "^10.0",
-    "illuminate/view": "^10.0",
-    "laravel-notification-channels/discord": "^1.4",
     "laravel-zero/framework": "^10.0",
-    "revolution/discord-manager": "^4.3",
-    "revolution/laravel-line-sdk": "^2.2",
-    "revolution/laravel-namespaced-helpers": "^2.0"
+    "revolution/laravel-line-sdk": "^2.2"
   },
   "require-dev": {
     "mockery/mockery": "^1.4",
