@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Aws\Sdk;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +20,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->app->singleton(Sdk::class, fn () => new Sdk(config('services.aws')));
     }
 }
