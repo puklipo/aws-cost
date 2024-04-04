@@ -27,7 +27,7 @@ class AwsCostCommand extends Command
     /**
      * Execute the console command.
      */
-    public function handle(): int
+    public function handle(Sdk $aws): int
     {
         $start = today()->startOfMonth()->toDateString();
         $end = today()->toDateString();
@@ -36,8 +36,6 @@ class AwsCostCommand extends Command
             $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
             $end = today()->subMonthNoOverflow()->endOfMonth()->toDateString();
         }
-
-        $aws = new Sdk(config('services.aws'));
 
         $result = $aws->createCostExplorer()->getCostAndUsage([
             'TimePeriod' => [
