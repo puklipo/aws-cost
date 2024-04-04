@@ -11,17 +11,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup PHP, with composer and extensions
         uses: shivammathur/setup-php@v2 #https://github.com/shivammathur/setup-php
         with:
-          php-version: 8.2
+          php-version: 8.3
           extensions: mbstring
           coverage: none
       - name: Install Composer dependencies
         run: composer install --no-dev --no-progress --optimize-autoloader
       - name: Run
-        run: php arty aws:cost
+        run: php artisan aws:cost
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

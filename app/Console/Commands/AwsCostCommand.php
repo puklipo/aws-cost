@@ -1,24 +1,24 @@
 <?php
 
-namespace App\Commands;
+namespace App\Console\Commands;
 
 use Aws\Sdk;
+use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
-use LaravelZero\Framework\Commands\Command;
 use Revolution\Line\Facades\LineNotify;
 use Revolution\Line\Notifications\LineNotifyMessage;
 
 class AwsCostCommand extends Command
 {
     /**
-     * The signature of the command.
+     * The name and signature of the console command.
      *
      * @var string
      */
     protected $signature = 'aws:cost';
 
     /**
-     * The description of the command.
+     * The console command description.
      *
      * @var string
      */
@@ -62,7 +62,7 @@ class AwsCostCommand extends Command
         ])->join('');
 
         LineNotify::withToken(config('line.notify.personal_access_token'))
-                  ->notify(LineNotifyMessage::create($message)->toArray());
+            ->notify(LineNotifyMessage::create($message)->toArray());
 
         return 0;
     }
