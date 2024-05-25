@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Aws\Sdk;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Number;
 use Revolution\Line\Facades\LineNotify;
 use Revolution\Line\Notifications\LineNotifyMessage;
 
@@ -47,7 +48,7 @@ class AwsCostCommand extends Command
         ]);
 
         $total = Arr::get($result->toArray(), 'ResultsByTime.0.Total.AmortizedCost.Amount');
-        $total = number_format($total, 2);
+        $total = Number::format($total, precision: 2);
 
         $message = collect([
             PHP_EOL,
