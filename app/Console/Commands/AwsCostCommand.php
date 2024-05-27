@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Aws\Sdk;
+use Aws\Result;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Number;
@@ -41,16 +42,13 @@ class AwsCostCommand extends Command
             'Metrics' => ['AmortizedCost'],
         ]);
 
-        $total = Arr::get($result->toArray(), 'ResultsByTime.0.Total.AmortizedCost.Amount');
-        $total = Number::format($total, precision: 2);
-
         $message = collect([
             PHP_EOL,
             $start,
             ' ~ ',
             $end,
             PHP_EOL,
-            $total,
+            $this->total($result),
             ' USD',
         ])->join('');
 
@@ -75,5 +73,13 @@ class AwsCostCommand extends Command
         }
 
         return [$start, $end];
+    }
+
+    private function total(Result $result): false|string
+    {
+        return Number::format(
+            Arr::get($result->toArray(), 'ResultsByTime.0.Total.AmortizedCost.Amount'),
+            precision: 2
+        );
     }
 }
