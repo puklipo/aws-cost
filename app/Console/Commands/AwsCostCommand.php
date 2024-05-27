@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use Aws\Sdk;
 use Aws\Result;
+use Aws\Sdk;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Number;
