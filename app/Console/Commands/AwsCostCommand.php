@@ -30,13 +30,7 @@ class AwsCostCommand extends Command
      */
     public function handle(Sdk $aws): int
     {
-        $start = today()->startOfMonth()->toDateString();
-        $end = today()->toDateString();
-
-        if ($start === $end) {
-            $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
-            $end = today()->subMonthNoOverflow()->endOfMonth()->toDateString();
-        }
+        [$start, $end] = $this->date();
 
         $result = $aws->createCostExplorer()->getCostAndUsage([
             'TimePeriod' => [
@@ -64,5 +58,22 @@ class AwsCostCommand extends Command
             ->notify(LineNotifyMessage::create($message)->toArray());
 
         return 0;
+    }
+
+    /**
+     * @return array<string>
+     */
+    private function date(): array
+    {
+        $start = today()->startOfMonth()->toDateString();
+        $end = today()->toDateString();
+
+        //毎月1日は先月分のデータを取得
+        if ($start === $end) {
+            $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
+            $end = today()->subMonthNoOverflow()->endOfMonth()->toDateString();
+        }
+
+        return [$start, $end];
     }
 }
