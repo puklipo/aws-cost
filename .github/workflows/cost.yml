@@ -19,7 +19,7 @@ jobs:
           extensions: mbstring
           coverage: none
       - name: Install Composer dependencies
-        run: composer install --no-dev --no-progress --optimize-autoloader
+        run: composer install --no-dev -q
       - name: Run
         run: php artisan aws:cost
         env:
