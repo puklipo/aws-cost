@@ -32,4 +32,3 @@ jobs:
           MAIL_FROM_NAME: "aws cost"
           MAIL_TO_ADDRESS: ${{ secrets.MAIL_TO_ADDRESS }}
           MAIL_TO_NAME: ${{ secrets.MAIL_TO_NAME }}
-          LINE_NOTIFY_PERSONAL_ACCESS_TOKEN: ${{ secrets.LINE_NOTIFY_PERSONAL_ACCESS_TOKEN }}
