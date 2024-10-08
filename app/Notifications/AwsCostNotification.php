@@ -39,7 +39,7 @@ class AwsCostNotification extends Notification
     {
         return (new MailMessage)
             ->subject('[AWSコスト] '.$this->total.' USD')
-            ->greeting('[AWSコスト] '.$this->start.' ~ '.$this->end)
+            ->greeting($this->start.' ~ '.$this->end)
             ->line($this->total.' USD');
     }
 
