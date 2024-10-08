@@ -2,10 +2,12 @@
 
 namespace App\Console\Commands;
 
+use App\Notifications\AwsCostNotification;
 use Aws\Result;
 use Aws\Sdk;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Number;
 use Revolution\Line\Facades\LineNotify;
 use Revolution\Line\Notifications\LineNotifyMessage;
@@ -42,18 +44,23 @@ class AwsCostCommand extends Command
             'Metrics' => ['AmortizedCost'],
         ]);
 
-        $message = collect([
-            PHP_EOL,
-            $start,
-            ' ~ ',
-            $end,
-            PHP_EOL,
-            $this->total($result),
-            ' USD',
-        ])->join('');
+        $total = $this->total($result);
 
-        LineNotify::withToken(config('line.notify.personal_access_token'))
-            ->notify(LineNotifyMessage::create($message)->toArray());
+//        $message = collect([
+//            PHP_EOL,
+//            $start,
+//            ' ~ ',
+//            $end,
+//            PHP_EOL,
+//            $total = $this->total($result),
+//            ' USD',
+//        ])->join('');
+
+//        LineNotify::withToken(config('line.notify.personal_access_token'))
+//            ->notify(LineNotifyMessage::create($message)->toArray());
+
+        Notification::route('mail', config('mail.to.address'))
+            ->notify(new AwsCostNotification($start, $end, $total));
 
         return 0;
     }
