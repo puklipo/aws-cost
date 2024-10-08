@@ -52,15 +52,16 @@ class AwsCostCommand extends Command
 //            ' ~ ',
 //            $end,
 //            PHP_EOL,
-//            $total = $this->total($result),
+//            $total,
 //            ' USD',
 //        ])->join('');
-
+//
 //        LineNotify::withToken(config('line.notify.personal_access_token'))
 //            ->notify(LineNotifyMessage::create($message)->toArray());
 
-        Notification::route('mail', config('mail.to.address'))
-            ->notify(new AwsCostNotification($start, $end, $total));
+        Notification::route('mail', [
+            config('mail.to.address') => config('mail.to.name')
+        ])->notify(new AwsCostNotification($start, $end, $total));
 
         return 0;
     }
