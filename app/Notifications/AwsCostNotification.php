@@ -38,7 +38,7 @@ class AwsCostNotification extends Notification
     public function toMail(object $notifiable): MailMessage
     {
         return (new MailMessage)
-            ->subject('[AWSコスト] '.$this->start.' ~ '.$this->end)
+            ->subject('[AWSコスト] '.$this->total.' USD')
             ->greeting('[AWSコスト] '.$this->start.' ~ '.$this->end)
             ->line($this->total.' USD');
     }
