@@ -45,7 +45,7 @@ class AwsCostCommand extends Command
         $total = $this->total($result);
 
         Notification::route('mail', [
-            config('mail.to.address') => config('mail.to.name')
+            config('mail.to.address') => config('mail.to.name'),
         ])->notify(new AwsCostNotification($start, $end, $total));
 
         return 0;
