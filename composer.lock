@@ -3868,16 +3868,16 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "3.3.3",
+            "version": "3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "f1e9396eec98f749400c7de19fb9dfcf78e7d502"
+                "reference": "1127e94ecdad75caec7034faef051cf3fb96b1dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/f1e9396eec98f749400c7de19fb9dfcf78e7d502",
-                "reference": "f1e9396eec98f749400c7de19fb9dfcf78e7d502",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/1127e94ecdad75caec7034faef051cf3fb96b1dd",
+                "reference": "1127e94ecdad75caec7034faef051cf3fb96b1dd",
                 "shasum": ""
             },
             "require": {
@@ -3925,9 +3925,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/3.3.3"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/3.3.4"
             },
-            "time": "2024-10-08T00:51:17+00:00"
+            "time": "2024-10-08T01:26:05+00:00"
         },
         {
             "name": "symfony/clock",
@@ -8434,12 +8434,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
