@@ -9,8 +9,6 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Number;
-use Revolution\Line\Facades\LineNotify;
-use Revolution\Line\Notifications\LineNotifyMessage;
 
 class AwsCostCommand extends Command
 {
@@ -45,19 +43,6 @@ class AwsCostCommand extends Command
         ]);
 
         $total = $this->total($result);
-
-//        $message = collect([
-//            PHP_EOL,
-//            $start,
-//            ' ~ ',
-//            $end,
-//            PHP_EOL,
-//            $total,
-//            ' USD',
-//        ])->join('');
-//
-//        LineNotify::withToken(config('line.notify.personal_access_token'))
-//            ->notify(LineNotifyMessage::create($message)->toArray());
 
         Notification::route('mail', [
             config('mail.to.address') => config('mail.to.name')
