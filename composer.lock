@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.323.4",
+            "version": "3.324.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae"
+                "reference": "b258712f0d986e00e1143d55246b6f9e344c7184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e66ee025b1d169fad3c784934f56648d3eec11ae",
-                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b258712f0d986e00e1143d55246b6f9e344c7184",
+                "reference": "b258712f0d986e00e1143d55246b6f9e344c7184",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.323.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.324.0"
             },
-            "time": "2024-10-09T18:10:22+00:00"
+            "time": "2024-10-10T18:06:36+00:00"
         },
         {
             "name": "brick/math",
@@ -3872,16 +3872,16 @@
         },
         {
             "name": "revolution/laravel-line-sdk",
-            "version": "3.3.6",
+            "version": "3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "4506f6b453b9054cf1086d2bdf2c4a49729ded32"
+                "reference": "1c8127ac3408ee68d509d116199a8f0b565e8c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/4506f6b453b9054cf1086d2bdf2c4a49729ded32",
-                "reference": "4506f6b453b9054cf1086d2bdf2c4a49729ded32",
+                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/1c8127ac3408ee68d509d116199a8f0b565e8c9a",
+                "reference": "1c8127ac3408ee68d509d116199a8f0b565e8c9a",
                 "shasum": ""
             },
             "require": {
@@ -3929,9 +3929,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/3.3.6"
+                "source": "https://github.com/kawax/laravel-line-sdk/tree/3.3.7"
             },
-            "time": "2024-10-09T01:48:19+00:00"
+            "time": "2024-10-10T04:29:34+00:00"
         },
         {
             "name": "symfony/clock",
