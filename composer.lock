@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.325.3",
+            "version": "3.325.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "de0b289c7260fb19301ffa2eb724de2076daad74"
+                "reference": "9e4be60c907ce5ef05ee36dafd42afd9944591c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/de0b289c7260fb19301ffa2eb724de2076daad74",
-                "reference": "de0b289c7260fb19301ffa2eb724de2076daad74",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9e4be60c907ce5ef05ee36dafd42afd9944591c6",
+                "reference": "9e4be60c907ce5ef05ee36dafd42afd9944591c6",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.325.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.325.6"
             },
-            "time": "2024-11-06T19:05:22+00:00"
+            "time": "2024-11-11T19:05:26+00:00"
         },
         {
             "name": "brick/math",
@@ -2190,16 +2190,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "9.11.0",
+            "version": "9.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "f9ed0a6d747bd486263cfa5301c2b2c3a7b05f85"
+                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/f9ed0a6d747bd486263cfa5301c2b2c3a7b05f85",
-                "reference": "f9ed0a6d747bd486263cfa5301c2b2c3a7b05f85",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
+                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
                 "shasum": ""
             },
             "require": {
@@ -2214,7 +2214,7 @@
                 "phpmd/phpmd": "2.15.0",
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^10.2",
-                "squizlabs/php_codesniffer": "3.10.2"
+                "squizlabs/php_codesniffer": "3.10.3"
             },
             "type": "library",
             "extra": {
@@ -2281,9 +2281,9 @@
             ],
             "support": {
                 "issues": "https://github.com/line/line-bot-sdk-php/issues",
-                "source": "https://github.com/line/line-bot-sdk-php/tree/9.11.0"
+                "source": "https://github.com/line/line-bot-sdk-php/tree/9.12.0"
             },
-            "time": "2024-09-05T02:54:58+00:00"
+            "time": "2024-11-07T08:44:14+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2454,16 +2454,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.8.1",
+            "version": "3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9"
+                "reference": "e1268cdbc486d97ce23fef2c666dc3c6b6de9947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/10ac0aa86b8062219ce21e8189123d611ca3ecd9",
-                "reference": "10ac0aa86b8062219ce21e8189123d611ca3ecd9",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e1268cdbc486d97ce23fef2c666dc3c6b6de9947",
+                "reference": "e1268cdbc486d97ce23fef2c666dc3c6b6de9947",
                 "shasum": ""
             },
             "require": {
@@ -2556,7 +2556,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-03T16:02:24+00:00"
+            "time": "2024-11-07T17:46:48+00:00"
         },
         {
             "name": "nette/schema",
@@ -6431,16 +6431,16 @@
     "packages-dev": [
         {
             "name": "fakerphp/faker",
-            "version": "v1.23.1",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b"
+                "reference": "a136842a532bac9ecd8a1c723852b09915d7db50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/bfb4fe148adbf78eff521199619b93a52ae3554b",
-                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/a136842a532bac9ecd8a1c723852b09915d7db50",
+                "reference": "a136842a532bac9ecd8a1c723852b09915d7db50",
                 "shasum": ""
             },
             "require": {
@@ -6488,9 +6488,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.1"
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.24.0"
             },
-            "time": "2024-01-02T13:46:09+00:00"
+            "time": "2024-11-07T15:11:20+00:00"
         },
         {
             "name": "filp/whoops",
@@ -6765,16 +6765,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.12.0",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c"
+                "reference": "123267b2c49fbf30d78a7b2d333f6be754b94845"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
-                "reference": "3a6b9a42cd8f8771bd4295d13e1423fa7f3d942c",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/123267b2c49fbf30d78a7b2d333f6be754b94845",
+                "reference": "123267b2c49fbf30d78a7b2d333f6be754b94845",
                 "shasum": ""
             },
             "require": {
@@ -6813,7 +6813,7 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.12.0"
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.12.1"
             },
             "funding": [
                 {
@@ -6821,7 +6821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-12T14:39:25+00:00"
+            "time": "2024-11-08T17:47:46+00:00"
         },
         {
             "name": "nunomaduro/collision",
