@@ -9,6 +9,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Number;
+use Revolution\Bluesky\Notifications\BlueskyRoute;
 
 class AwsCostCommand extends Command
 {
@@ -44,9 +45,8 @@ class AwsCostCommand extends Command
 
         $total = $this->total($result);
 
-        Notification::route('mail', [
-            config('mail.to.address') => config('mail.to.name'),
-        ])->notify(new AwsCostNotification($start, $end, $total));
+        Notification::route('bluesky-private', BlueskyRoute::to(identifier: config('bluesky.notification.private.sender.identifier'), password: config('bluesky.notification.private.sender.password'), receiver: config('bluesky.notification.private.receiver')))
+            ->notify(new AwsCostNotification($start, $end, $total));
 
         return 0;
     }

@@ -1,7 +1,7 @@
 name: cost
 
 on:
-  #push:
+  push:
   schedule:
     - cron: '0 3 * * *' #UTC
 
@@ -32,3 +32,6 @@ jobs:
           MAIL_FROM_NAME: "aws-cost"
           MAIL_TO_ADDRESS: ${{ secrets.MAIL_TO_ADDRESS }}
           MAIL_TO_NAME: ${{ secrets.MAIL_TO_NAME }}
+          BLUESKY_SENDER_IDENTIFIER: ${{ secrets.BLUESKY_SENDER_IDENTIFIER }}
+          BLUESKY_SENDER_APP_PASSWORD: ${{ secrets.BLUESKY_SENDER_APP_PASSWORD }}
+          BLUESKY_RECEIVER: ${{ secrets.BLUESKY_RECEIVER }}

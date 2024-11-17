@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b4a318e1acf21ec2ecd8f04a45df859",
+    "content-hash": "be5acd90612179320209300a5eabd880",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.326.0",
+            "version": "3.328.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "5420284de9aad84e375fa8012cefd834bebfd623"
+                "reference": "a99b58e166ae367f2b067937afb04e843e900745"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5420284de9aad84e375fa8012cefd834bebfd623",
-                "reference": "5420284de9aad84e375fa8012cefd834bebfd623",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a99b58e166ae367f2b067937afb04e843e900745",
+                "reference": "a99b58e166ae367f2b067937afb04e843e900745",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.326.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.328.0"
             },
-            "time": "2024-11-13T19:07:44+00:00"
+            "time": "2024-11-15T19:06:57+00:00"
         },
         {
             "name": "brick/math",
@@ -1271,16 +1271,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.31.0",
+            "version": "v11.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "365090ed2c68244e3141cdb5e247cdf3dfba2c40"
+                "reference": "bc2aad63f83ee5089be7b21cf29d645ccf31e927"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/365090ed2c68244e3141cdb5e247cdf3dfba2c40",
-                "reference": "365090ed2c68244e3141cdb5e247cdf3dfba2c40",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/bc2aad63f83ee5089be7b21cf29d645ccf31e927",
+                "reference": "bc2aad63f83ee5089be7b21cf29d645ccf31e927",
                 "shasum": ""
             },
             "require": {
@@ -1476,7 +1476,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-11-12T15:36:15+00:00"
+            "time": "2024-11-15T17:04:33+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -2187,103 +2187,6 @@
                 "source": "https://github.com/thephpleague/oauth1-client/tree/v1.10.1"
             },
             "time": "2022-04-15T14:02:14+00:00"
-        },
-        {
-            "name": "linecorp/line-bot-sdk",
-            "version": "9.12.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
-                "reference": "eebb640ef5eb7dab5cc8bb64f9c844f0ab1621e9",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.3",
-                "guzzlehttp/psr7": "^1.7 || ^2.0",
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "^7.3",
-                "guzzlehttp/psr7": "^1.7 || ^2.0",
-                "orchestra/testbench": "*",
-                "phpmd/phpmd": "2.15.0",
-                "phpstan/phpstan": "^1.10",
-                "phpunit/phpunit": "^10.2",
-                "squizlabs/php_codesniffer": "3.10.3"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LINE\\Laravel\\LINEBotServiceProvider"
-                    ],
-                    "aliases": {
-                        "LINEChannelAccessTokenApi": "LINE\\Laravel\\Facades\\LINEChannelAccessTokenApi",
-                        "LINEInsightApi": "LINE\\Laravel\\Facades\\LINEInsightApi",
-                        "LINELiffApi": "LINE\\Laravel\\Facades\\LINELiffApi",
-                        "LINEManageAudienceApi": "LINE\\Laravel\\Facades\\LINEManageAudienceApi",
-                        "LINEManageAudienceBlobApi": "LINE\\Laravel\\Facades\\LINEManageAudienceBlobApi",
-                        "LINEMessagingApi": "LINE\\Laravel\\Facades\\LINEMessagingApi",
-                        "LINEMessagingBlobApi": "LINE\\Laravel\\Facades\\LINEMessagingBlobApi"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "LINE\\Parser\\": "src/parser/lib/",
-                    "LINE\\Laravel\\": "src/laravel/lib/",
-                    "LINE\\Webhook\\": "src/webhook/lib/",
-                    "LINE\\Constants\\": "src/constants/",
-                    "LINE\\Clients\\Liff\\": "src/clients/liff/lib/",
-                    "LINE\\Clients\\Insight\\": "src/clients/insight/lib/",
-                    "LINE\\Clients\\MessagingApi\\": "src/clients/messaging-api/lib/",
-                    "LINE\\Clients\\ManageAudience\\": "src/clients/manage-audience/lib/",
-                    "LINE\\Clients\\ChannelAccessToken\\": "src/clients/channel-access-token/lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "moznion",
-                    "email": "moznion@gmail.com",
-                    "role": "Retired"
-                },
-                {
-                    "name": "Satoru Yoshihara",
-                    "email": "vaduz0@gmail.com",
-                    "role": "Retired"
-                },
-                {
-                    "name": "Satoshi Shibuya",
-                    "email": "satosby@gmail.com",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Shunsuke Mori",
-                    "email": "morimorim7180@gmail.com",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "SDK of the LINE BOT API for PHP",
-            "homepage": "https://github.com/line/line-bot-sdk-php",
-            "keywords": [
-                "bot",
-                "line",
-                "sdk"
-            ],
-            "support": {
-                "issues": "https://github.com/line/line-bot-sdk-php/issues",
-                "source": "https://github.com/line/line-bot-sdk-php/tree/9.12.0"
-            },
-            "time": "2024-11-07T08:44:14+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3872,43 +3775,29 @@
             "time": "2024-04-27T21:32:50+00:00"
         },
         {
-            "name": "revolution/laravel-line-sdk",
-            "version": "3.3.7",
+            "name": "revolution/atproto-lexicon-contracts",
+            "version": "1.0.28",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kawax/laravel-line-sdk.git",
-                "reference": "1c8127ac3408ee68d509d116199a8f0b565e8c9a"
+                "url": "https://github.com/kawax/atproto-lexicon-contracts.git",
+                "reference": "bd0e9a26e17dac4273fb5bd5bec4e5d2a2676dac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-line-sdk/zipball/1c8127ac3408ee68d509d116199a8f0b565e8c9a",
-                "reference": "1c8127ac3408ee68d509d116199a8f0b565e8c9a",
+                "url": "https://api.github.com/repos/kawax/atproto-lexicon-contracts/zipball/bd0e9a26e17dac4273fb5bd5bec4e5d2a2676dac",
+                "reference": "bd0e9a26e17dac4273fb5bd5bec4e5d2a2676dac",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
-                "illuminate/support": "^10.0||^11.0",
-                "laravel/socialite": "^5.0",
-                "linecorp/line-bot-sdk": "^9.0",
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "require-dev": {
-                "orchestra/testbench": "^8.0||^9.0"
+                "guzzlehttp/guzzle": "^7.9"
             },
             "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Revolution\\Line\\Providers\\LineServiceProvider",
-                        "Revolution\\Line\\Providers\\LineSocialiteServiceProvider",
-                        "Revolution\\Line\\Providers\\RouteServiceProvider",
-                        "Revolution\\Line\\Providers\\MacroServiceProvider"
-                    ]
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "Revolution\\Line\\": "src/"
+                    "Revolution\\AtProto\\Lexicon\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3921,18 +3810,80 @@
                     "email": "kawaxbiz@gmail.com"
                 }
             ],
-            "description": "LINE SDK for Laravel",
+            "description": "Auto generated pure PHP interface and enum",
             "keywords": [
-                "bot",
-                "laravel",
-                "line",
-                "sdk"
+                "Lexicon",
+                "atproto",
+                "bluesky",
+                "contracts"
             ],
             "support": {
-                "issues": "https://github.com/kawax/laravel-line-sdk/issues",
-                "source": "https://github.com/kawax/laravel-line-sdk/tree/3.3.7"
+                "issues": "https://github.com/kawax/atproto-lexicon-contracts/issues",
+                "source": "https://github.com/kawax/atproto-lexicon-contracts/tree/1.0.28"
             },
-            "time": "2024-10-10T04:29:34+00:00"
+            "time": "2024-11-14T03:38:55+00:00"
+        },
+        {
+            "name": "revolution/laravel-bluesky",
+            "version": "0.12.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/laravel-bluesky.git",
+                "reference": "eb395ba564c12d04038919d24d0da1abc3c0722b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/eb395ba564c12d04038919d24d0da1abc3c0722b",
+                "reference": "eb395ba564c12d04038919d24d0da1abc3c0722b",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^6.10",
+                "guzzlehttp/guzzle": "^7.8",
+                "illuminate/support": "^11.20",
+                "laravel/socialite": "^5.16",
+                "php": "^8.2",
+                "phpseclib/phpseclib": "^3.0",
+                "revolution/atproto-lexicon-contracts": "^1.0.25"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Revolution\\Bluesky\\Providers\\BlueskyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolution\\Bluesky\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Laravel Bluesky",
+            "keywords": [
+                "atproto",
+                "bluesky",
+                "laravel",
+                "notifications",
+                "socialite"
+            ],
+            "support": {
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.12.7"
+            },
+            "time": "2024-11-16T09:24:30+00:00"
         },
         {
             "name": "symfony/clock",
@@ -8439,12 +8390,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
