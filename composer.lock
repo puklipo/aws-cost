@@ -3825,16 +3825,16 @@
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.12.8",
+            "version": "0.12.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "5c4d66c560bd0e291fe21436c5cea6bcc8052a22"
+                "reference": "6d2df5aedc24ee9314bed50384bda29aec175161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/5c4d66c560bd0e291fe21436c5cea6bcc8052a22",
-                "reference": "5c4d66c560bd0e291fe21436c5cea6bcc8052a22",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/6d2df5aedc24ee9314bed50384bda29aec175161",
+                "reference": "6d2df5aedc24ee9314bed50384bda29aec175161",
                 "shasum": ""
             },
             "require": {
@@ -3881,9 +3881,9 @@
                 "socialite"
             ],
             "support": {
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.12.8"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.12.9"
             },
-            "time": "2024-11-17T05:46:23+00:00"
+            "time": "2024-11-17T09:58:23+00:00"
         },
         {
             "name": "symfony/clock",
@@ -8390,12 +8390,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
