@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be5acd90612179320209300a5eabd880",
+    "content-hash": "b9bf5a7f208e4e267a2c2fb7db50b893",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -3825,26 +3825,28 @@
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.12.9",
+            "version": "0.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "6d2df5aedc24ee9314bed50384bda29aec175161"
+                "reference": "79914b1d1100dbaa94ed2ef28610700badbee255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/6d2df5aedc24ee9314bed50384bda29aec175161",
-                "reference": "6d2df5aedc24ee9314bed50384bda29aec175161",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/79914b1d1100dbaa94ed2ef28610700badbee255",
+                "reference": "79914b1d1100dbaa94ed2ef28610700badbee255",
                 "shasum": ""
             },
             "require": {
+                "ext-pcntl": "*",
                 "firebase/php-jwt": "^6.10",
                 "guzzlehttp/guzzle": "^7.8",
                 "illuminate/support": "^11.20",
                 "laravel/socialite": "^5.16",
                 "php": "^8.2",
                 "phpseclib/phpseclib": "^3.0",
-                "revolution/atproto-lexicon-contracts": "^1.0.25"
+                "revolution/atproto-lexicon-contracts": "^1.0.28",
+                "valtzu/guzzle-websocket-middleware": "^0.2.0"
             },
             "require-dev": {
                 "orchestra/testbench": "^9.0"
@@ -3881,9 +3883,9 @@
                 "socialite"
             ],
             "support": {
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.12.9"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.13.0"
             },
-            "time": "2024-11-17T09:58:23+00:00"
+            "time": "2024-11-18T01:57:54+00:00"
         },
         {
             "name": "symfony/clock",
@@ -6165,6 +6167,42 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
+            "name": "valtzu/guzzle-websocket-middleware",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/valtzu/guzzle-websocket-middleware.git",
+                "reference": "4ac84c667aa4d4df2e9b82269a4691c686a20716"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/valtzu/guzzle-websocket-middleware/zipball/4ac84c667aa4d4df2e9b82269a4691c686a20716",
+                "reference": "4ac84c667aa4d4df2e9b82269a4691c686a20716",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Valtzu\\WebSocketMiddleware\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/valtzu/guzzle-websocket-middleware/issues",
+                "source": "https://github.com/valtzu/guzzle-websocket-middleware/tree/0.2.0"
+            },
+            "time": "2024-09-18T18:22:42+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v5.6.1",
             "source": {
@@ -8390,12 +8428,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
