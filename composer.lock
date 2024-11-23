@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.329.0",
+            "version": "3.330.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "37249799204e04cf3686d2b361cfd417d3dab123"
+                "reference": "dd1b65a4329f91d5e282a92fab2be7bdf6e2adea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/37249799204e04cf3686d2b361cfd417d3dab123",
-                "reference": "37249799204e04cf3686d2b361cfd417d3dab123",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/dd1b65a4329f91d5e282a92fab2be7bdf6e2adea",
+                "reference": "dd1b65a4329f91d5e282a92fab2be7bdf6e2adea",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.329.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.330.0"
             },
-            "time": "2024-11-21T19:16:09+00:00"
+            "time": "2024-11-22T19:10:26+00:00"
         },
         {
             "name": "brick/math",
@@ -3776,16 +3776,16 @@
         },
         {
             "name": "revolution/atproto-lexicon-contracts",
-            "version": "1.0.31",
+            "version": "1.0.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/atproto-lexicon-contracts.git",
-                "reference": "c1eaa128cc83fde4119202b87bb584d06157754f"
+                "reference": "55b62b02a445df4422778019a721ac34e2d003d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/atproto-lexicon-contracts/zipball/c1eaa128cc83fde4119202b87bb584d06157754f",
-                "reference": "c1eaa128cc83fde4119202b87bb584d06157754f",
+                "url": "https://api.github.com/repos/kawax/atproto-lexicon-contracts/zipball/55b62b02a445df4422778019a721ac34e2d003d5",
+                "reference": "55b62b02a445df4422778019a721ac34e2d003d5",
                 "shasum": ""
             },
             "require": {
@@ -3818,22 +3818,22 @@
                 "contracts"
             ],
             "support": {
-                "source": "https://github.com/kawax/atproto-lexicon-contracts/tree/1.0.31"
+                "source": "https://github.com/kawax/atproto-lexicon-contracts/tree/1.0.32"
             },
-            "time": "2024-11-20T03:26:02+00:00"
+            "time": "2024-11-22T03:43:35+00:00"
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.13.6",
+            "version": "0.13.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "8eb49356ed138ad5abee54d7ee5a5a71045e3db2"
+                "reference": "5f293fc1eeaf6fdc99d2a12b6ed6670bd05a530b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/8eb49356ed138ad5abee54d7ee5a5a71045e3db2",
-                "reference": "8eb49356ed138ad5abee54d7ee5a5a71045e3db2",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/5f293fc1eeaf6fdc99d2a12b6ed6670bd05a530b",
+                "reference": "5f293fc1eeaf6fdc99d2a12b6ed6670bd05a530b",
                 "shasum": ""
             },
             "require": {
@@ -3844,7 +3844,7 @@
                 "laravel/socialite": "^5.16",
                 "php": "^8.2",
                 "phpseclib/phpseclib": "^3.0",
-                "revolution/atproto-lexicon-contracts": "1.0.31",
+                "revolution/atproto-lexicon-contracts": "1.0.32",
                 "valtzu/guzzle-websocket-middleware": "^0.2.0"
             },
             "require-dev": {
@@ -3882,9 +3882,9 @@
                 "socialite"
             ],
             "support": {
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.13.6"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.13.7"
             },
-            "time": "2024-11-21T10:10:55+00:00"
+            "time": "2024-11-22T13:09:58+00:00"
         },
         {
             "name": "symfony/clock",
