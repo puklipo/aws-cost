@@ -9,7 +9,7 @@
         "aws/aws-sdk-php": "^3.300.0",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
-        "revolution/laravel-bluesky": "^0.13"
+        "revolution/laravel-bluesky": "^0.14"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
