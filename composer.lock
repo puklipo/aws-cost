@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.334.1",
+            "version": "3.334.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3938b3467f64a30fed7ee1762a6785f808a5ae4d"
+                "reference": "b19afc076bb1cc2617bdef76efd41587596109e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3938b3467f64a30fed7ee1762a6785f808a5ae4d",
-                "reference": "3938b3467f64a30fed7ee1762a6785f808a5ae4d",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b19afc076bb1cc2617bdef76efd41587596109e7",
+                "reference": "b19afc076bb1cc2617bdef76efd41587596109e7",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.334.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.334.2"
             },
-            "time": "2024-12-05T01:17:41+00:00"
+            "time": "2024-12-09T19:30:23+00:00"
         },
         {
             "name": "brick/math",
@@ -1268,6 +1268,48 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "jetbrains/phpstorm-attributes",
+            "version": "1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JetBrains/phpstorm-attributes.git",
+                "reference": "64de815a4509c29e00d5e3474087fd24c171afc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-attributes/zipball/64de815a4509c29e00d5e3474087fd24c171afc2",
+                "reference": "64de815a4509c29e00d5e3474087fd24c171afc2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JetBrains\\PhpStorm\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "JetBrains",
+                    "homepage": "https://www.jetbrains.com"
+                }
+            ],
+            "description": "PhpStorm specific attributes",
+            "keywords": [
+                "attributes",
+                "jetbrains",
+                "phpstorm"
+            ],
+            "support": {
+                "issues": "https://youtrack.jetbrains.com/newIssue?project=WI",
+                "source": "https://github.com/JetBrains/phpstorm-attributes/tree/1.2"
+            },
+            "time": "2024-10-11T10:46:19+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3781,23 +3823,24 @@
         },
         {
             "name": "revolution/atproto-lexicon-contracts",
-            "version": "1.0.35",
+            "version": "1.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/atproto-lexicon-contracts.git",
-                "reference": "0fbee436399637951b6dde8e9bad6603aa22f6ee"
+                "reference": "f020e6870f0be7cb13679a08cd838111b3a05445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/atproto-lexicon-contracts/zipball/0fbee436399637951b6dde8e9bad6603aa22f6ee",
-                "reference": "0fbee436399637951b6dde8e9bad6603aa22f6ee",
+                "url": "https://api.github.com/repos/kawax/atproto-lexicon-contracts/zipball/f020e6870f0be7cb13679a08cd838111b3a05445",
+                "reference": "f020e6870f0be7cb13679a08cd838111b3a05445",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-                "guzzlehttp/guzzle": "^7.9"
+                "guzzlehttp/guzzle": "^7.9",
+                "jetbrains/phpstorm-attributes": "^1.2"
             },
             "type": "library",
             "autoload": {
@@ -3823,38 +3866,45 @@
                 "contracts"
             ],
             "support": {
-                "source": "https://github.com/kawax/atproto-lexicon-contracts/tree/1.0.35"
+                "source": "https://github.com/kawax/atproto-lexicon-contracts/tree/1.0.36"
             },
-            "time": "2024-12-06T03:47:15+00:00"
+            "time": "2024-12-08T13:35:54+00:00"
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.14.7",
+            "version": "0.14.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "800eaf03bc0799a42c4a80f67b16861dd08966a6"
+                "reference": "c9bb6b16cb8ce9eb58f48947f2e798513562721c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/800eaf03bc0799a42c4a80f67b16861dd08966a6",
-                "reference": "800eaf03bc0799a42c4a80f67b16861dd08966a6",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/c9bb6b16cb8ce9eb58f48947f2e798513562721c",
+                "reference": "c9bb6b16cb8ce9eb58f48947f2e798513562721c",
                 "shasum": ""
             },
             "require": {
-                "ext-pcntl": "*",
                 "firebase/php-jwt": "^6.10",
                 "guzzlehttp/guzzle": "^7.8",
                 "illuminate/support": "^11.20",
+                "jetbrains/phpstorm-attributes": "^1.2",
                 "laravel/socialite": "^5.16",
                 "php": "^8.2",
                 "phpseclib/phpseclib": "^3.0",
-                "revolution/atproto-lexicon-contracts": "1.0.35",
+                "revolution/atproto-lexicon-contracts": "1.0.36",
                 "valtzu/guzzle-websocket-middleware": "^0.2.0",
                 "yocto/yoclib-multibase": "^1.2"
             },
             "require-dev": {
-                "orchestra/testbench": "^9.0"
+                "larastan/larastan": "^3.0",
+                "orchestra/testbench": "^9.0",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan-webmozart-assert": "^2.0"
+            },
+            "suggest": {
+                "ext-gmp": "*",
+                "ext-pcntl": "*"
             },
             "type": "library",
             "extra": {
@@ -3889,9 +3939,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-bluesky/issues",
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.14.7"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.14.8"
             },
-            "time": "2024-12-06T12:48:21+00:00"
+            "time": "2024-12-09T09:25:07+00:00"
         },
         {
             "name": "symfony/clock",
@@ -4869,8 +4919,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4945,8 +4995,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -5106,8 +5156,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -5264,8 +5314,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -5344,8 +5394,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -5426,8 +5476,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
