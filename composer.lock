@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.334.6",
+            "version": "3.334.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2b0be3aded849d3b7bb0b53ea3295c7cecdeeee7"
+                "reference": "8e0104e95a1edba209e077e6c4212b8cca04686f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2b0be3aded849d3b7bb0b53ea3295c7cecdeeee7",
-                "reference": "2b0be3aded849d3b7bb0b53ea3295c7cecdeeee7",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/8e0104e95a1edba209e077e6c4212b8cca04686f",
+                "reference": "8e0104e95a1edba209e077e6c4212b8cca04686f",
                 "shasum": ""
             },
             "require": {
@@ -154,9 +154,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.334.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.334.7"
             },
-            "time": "2024-12-13T19:18:29+00:00"
+            "time": "2024-12-16T19:09:36+00:00"
         },
         {
             "name": "brick/math",
@@ -4048,22 +4048,22 @@
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.14.14",
+            "version": "0.14.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "fd5bb5a628a0a16e763f5686ca5487f954a88f73"
+                "reference": "86a6b1e7283024db62733c4b90f13e4abada7214"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/fd5bb5a628a0a16e763f5686ca5487f954a88f73",
-                "reference": "fd5bb5a628a0a16e763f5686ca5487f954a88f73",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/86a6b1e7283024db62733c4b90f13e4abada7214",
+                "reference": "86a6b1e7283024db62733c4b90f13e4abada7214",
                 "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "^6.10",
                 "guzzlehttp/guzzle": "^7.8",
-                "illuminate/support": "^11.20",
+                "illuminate/support": "^11.30",
                 "jetbrains/phpstorm-attributes": "^1.2",
                 "laravel/socialite": "^5.16",
                 "php": "^8.2",
@@ -4116,9 +4116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-bluesky/issues",
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.14.14"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.14.17"
             },
-            "time": "2024-12-14T13:26:18+00:00"
+            "time": "2024-12-16T21:56:22+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
