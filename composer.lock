@@ -4047,16 +4047,16 @@
         },
         {
             "name": "revolution/laravel-bluesky",
-            "version": "0.16.1",
+            "version": "0.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-bluesky.git",
-                "reference": "4a873bf5df3eec0996e14c9d45e9901a6dfa8015"
+                "reference": "90e7d14c81a74b041fe6ab9cc2cc60ce48295b0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/4a873bf5df3eec0996e14c9d45e9901a6dfa8015",
-                "reference": "4a873bf5df3eec0996e14c9d45e9901a6dfa8015",
+                "url": "https://api.github.com/repos/kawax/laravel-bluesky/zipball/90e7d14c81a74b041fe6ab9cc2cc60ce48295b0e",
+                "reference": "90e7d14c81a74b041fe6ab9cc2cc60ce48295b0e",
                 "shasum": ""
             },
             "require": {
@@ -4075,13 +4075,13 @@
                 "orchestra/testbench": "^9.0",
                 "phpstan/extension-installer": "^1.4",
                 "revolt/event-loop": "^1.0",
-                "workerman/workerman": "^5.0-rc.3"
+                "workerman/workerman": "^5.0"
             },
             "suggest": {
                 "ext-gmp": "*",
                 "ext-pcntl": "*",
                 "revolt/event-loop": "Required to use WebSocket.",
-                "workerman/workerman": "Required to use WebSocket.(^4.2|^5.0)"
+                "workerman/workerman": "Required to use WebSocket."
             },
             "type": "library",
             "extra": {
@@ -4118,9 +4118,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kawax/laravel-bluesky/issues",
-                "source": "https://github.com/kawax/laravel-bluesky/tree/0.16.1"
+                "source": "https://github.com/kawax/laravel-bluesky/tree/0.16.3"
             },
-            "time": "2024-12-31T04:36:29+00:00"
+            "time": "2025-01-05T05:32:05+00:00"
         },
         {
             "name": "symfony/clock",
