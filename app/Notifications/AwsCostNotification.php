@@ -37,11 +37,10 @@ class AwsCostNotification extends Notification
     public function toBlueskyPrivate(object $notifiable): BlueskyPrivateMessage
     {
         return BlueskyPrivateMessage::build(function (TextBuilder $builder) {
-            $builder->text('[AWSコスト]')
+            $builder->text('[AWSコスト] ')
+                ->text($this->total.' USD')
                 ->newLine()
-                ->text($this->start.' ~ '.$this->end)
-                ->newLine()
-                ->text($this->total.' USD');
+                ->text($this->start.' ~ '.$this->end);
         });
     }
 
