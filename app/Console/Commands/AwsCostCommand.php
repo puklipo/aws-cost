@@ -59,7 +59,7 @@ class AwsCostCommand extends Command
         $start = today()->startOfMonth()->toDateString();
         $end = today()->toDateString();
 
-        //毎月1日は先月分のデータを取得
+        // 毎月1日は先月分のデータを取得
         if ($start === $end) {
             $start = today()->subMonthNoOverflow()->startOfMonth()->toDateString();
             $end = today()->subMonthNoOverflow()->endOfMonth()->toDateString();
