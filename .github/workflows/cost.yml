@@ -1,9 +1,9 @@
 name: cost
 
 on:
-  #push:
-  schedule:
-    - cron: '0 3 * * *' #UTC
+  workflow_dispatch:
+  #schedule:
+  #  - cron: '0 3 * * *' #UTC
 
 jobs:
   cost:
