@@ -6,7 +6,7 @@ AWSのコストを取得しBlueskyのDMで通知するツール。GitHub Actions
 
 ## Technology Stack
 - PHP 8.4
-- Laravel 12.x (コンソールスターターキットでartisanコマンドのみ使うプロジェクト構成。Web関連機能はないことに注意)
+- Laravel 13.x (コンソールスターターキットでartisanコマンドのみ使うプロジェクト構成。Web関連機能はないことに注意)
 
 ## コアファイル
 - `app/Console/Commands/AwsCostCommand.php`: AWSコストを取得しBlueskyに通知するコマンド

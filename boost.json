@@ -3,11 +3,14 @@
         "copilot-cli"
     ],
     "guidelines": true,
-    "herd_mcp": false,
     "mcp": true,
     "nightwatch_mcp": false,
     "packages": [
         "revolution/laravel-boost-copilot-cli"
     ],
-    "sail": false
+    "sail": false,
+    "skills": [
+        "laravel-best-practices",
+        "socialite-development"
+    ]
 }
